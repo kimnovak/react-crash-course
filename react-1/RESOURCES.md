@@ -200,7 +200,9 @@ export default Button;
 ```
 
 Inside App.js add the import for Button:
-```import Button from 'components/Button';```  
+```
+import Button from 'components/Button';
+```  
 
 delete function App and replace it with this: 
 
@@ -215,11 +217,11 @@ function App() {
 Congrats! You just created your first Component!  
 
 Our Component Tree looks like this:
-
+```
         App 
       /
 Button 
-
+```
 This was a short intro to get you started  
 Next steps are (THIS IS THE CORE OF UNDERSTANDING REACT):  
 Learn about Props:  https://reactjs.org/docs/components-and-props.html
