@@ -79,8 +79,31 @@ This means we will have a Components Tree (If you are not familiar with Tree Str
 What (from the UI) can be a component? Everything
 Should everything be a component? No, you will get a grip of it by time, but for now, everything that seems like a stand-alone logical part should be a component and everything that appears more than once on the screen should be a component
 
+Here's an example
+
 ![components](https://github.com/kimnovak/react-crash-course/blob/master/react-1/components.jpg?raw=true)
 
+You can see that side bar item is always built out of 2 elements:  
+Icon and  
+Label
 
+to render a component in React we would "call" it like this:
+```
+<SideBarItem />
+```
+  
+We can pass data to the component from its parent  
+We call this data ```props```  
+More on this later, but for now it looks like this:  
 
+```
+<SideBarItem label="Home" icon="home" />
+```
+The syntax looks like the HTML element and props are sent like HTML element's attributes
+  
+## Learn Once, Write Anywhere  
+With React you can create Client-side Web apps, but that's not all you can do.  
+You can also create mobile apps using React Native which is a bit different but it is REACT so the syntax and how it works is the same.  
+You can also render React on the server side.  
 
+# Lesson 2
