@@ -204,11 +204,13 @@ Inside App.js add the import for Button:
 
 delete function App and replace it with this: 
 
-```function App() {
+```
+function App() {
   return (
     <Button />
   );
-}```
+}
+```
   
 Congrats! You just created your first Component!  
 
